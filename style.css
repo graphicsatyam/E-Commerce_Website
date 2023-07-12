@@ -904,6 +904,110 @@ footer .col-install .paymentgateway {
     color: royalblue;
 }
 
+/* CSS for Cart Page  */
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table img {
+    width: 70px;
+}
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4), 
+#cart table td:nth-child(5), 
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+    
+}
+#cart table thead {
+    border: 1px solid royalblue;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 18px 0;
+}
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+#cart table tbody td {
+    font-size: 15px;
+}
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+#coupon input {
+    padding: 13px 12px;
+    font-size: 18px;
+    outline: none;
+    width: 55%;
+    margin-right: 10px;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+}
+#coupon button {
+    background-color: royalblue;
+    color: wheat;
+    font-size: 18px;
+    padding: 13px 18px;
+    
+}
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid royalblue;
+    padding: 30px;
+}
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal td{
+    width: 50%;
+    border: 1px solid royalblue;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 580;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#subtotal button {
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+}
 
 
 
@@ -1171,5 +1275,6 @@ body {
     margin: 20px;
    
 }
+
 }
 
